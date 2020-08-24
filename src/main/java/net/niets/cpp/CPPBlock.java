@@ -14,7 +14,7 @@ import net.minecraftforge.common.ToolType;
 public class CPPBlock extends PressurePlateBlock {
 
     public CPPBlock() {
-        super(Sensitivity.MOBS, Block.Properties.create(Material.CACTUS)
+        super(Sensitivity.EVERYTHING, Block.Properties.create(Material.CACTUS)
                 .harvestLevel(0)
                 .sound(SoundType.CLOTH)
                 .harvestTool(ToolType.AXE)
